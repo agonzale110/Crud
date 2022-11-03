@@ -97,9 +97,6 @@ function Crud() {
             <Row className='justify-content-center'>
                 <Col xs={8}>
                     <Form onSubmit={formSubmitHandler}>
-                        <Form.Group className='mb-3'>
-                            <Form.Control type='hidden' value={id} />
-                        </Form.Group>
                         <FloatingLabel
                             controlId='nombre'
                             label='Nombre'
